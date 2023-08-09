@@ -23,7 +23,7 @@ If you haven't yet, [Download](https://www.terraform.io/downloads.html) and [Ins
 
 ## Step 2. Configure AWS Credential
 
-Refer [AWS CLI Configuration Guide](https://github.com/ginigangadharan/vagrant-iac-usecases#aws-setup) for details.
+Refer [AWS CLI Configuration Guide](https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-configure.html) for details.
 
 ## Step 3. Create SSH Keys to Access the ec2 instances
 
@@ -39,8 +39,8 @@ $ ssh-keygen
 ## Step 4. Clone the Repository and create your Ansible Lab
 
 ```shell
-$ git clone https://github.com/ginigangadharan/terraform-iac-usecases
-$ cd terraform-aws-ansible-lab
+$ git clone https://github.com/alexsuza/ansible-aws-lab
+$ cd ansible-aws-lab
 
 ## init terraform
 $ terraform init
